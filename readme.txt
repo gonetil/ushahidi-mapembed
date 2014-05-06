@@ -1,6 +1,6 @@
 === About ===
 name: Embbed Map
-website: https://github.com/gonetil
+website: https://github.com/gonetil/ushahidi-mapembed
 description: Allows maps to be embbeded in other websites
 version: 0.1
 requires: 2.7.1 or higher
