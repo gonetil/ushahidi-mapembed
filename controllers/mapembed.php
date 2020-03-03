@@ -232,6 +232,8 @@ class Mapembed_Controller extends Main_Controller {
 		$this->themes->js->active_endDate = $display_endDate;
 
 		$this->themes->js->blocks_per_row = Kohana::config('settings.blocks_per_row');
+	    
+		$this->template->header->header_block = $this->themes->header_block()
 	}
 	
 } // End Controller
